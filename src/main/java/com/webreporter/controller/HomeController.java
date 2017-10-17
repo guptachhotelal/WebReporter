@@ -10,10 +10,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HomeController extends BaseController {
 
-    //    @RequestMapping(value = "/home")
-    //    public String showHome() {
-    //        return "home";
-    //    }
+    @RequestMapping(value = "/home")
+    public String showHome() {
+        return "home";
+    }
+
     @RequestMapping(value = "/doctors")
     public String showDoctors() {
         return "doctors";
