@@ -15,7 +15,7 @@
         <property name="suffix" value=".jsp" />
         <property name="contentType" value="text/html;charset=UTF-8" />
     </bean>
-    <!--    <bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+<!--    <bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
         <property name="exceptionMappings">
             <props>
                 <prop key="com.webreporter.utils.WebReporterExcepton">

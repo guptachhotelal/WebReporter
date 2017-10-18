@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * @author Chhotelal
  */
 @Controller
-public class DoctorController extends BaseController {
+public class DoctorController {
 
     @Resource
     private IDoctorService doctorService;
